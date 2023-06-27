@@ -1,20 +1,20 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v6.0",
+    "name": ".NETCoreApp,Version=v7.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {
-      "practico6/1.0.0": {
+    ".NETCoreApp,Version=v7.0": {
+      "tl1_tp6_2023-vaninaze/1.0.0": {
         "runtime": {
-          "practico6.dll": {}
+          "tl1_tp6_2023-vaninaze.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "practico6/1.0.0": {
+    "tl1_tp6_2023-vaninaze/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

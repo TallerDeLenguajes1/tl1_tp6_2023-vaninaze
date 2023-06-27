@@ -1,79 +1,31 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-
 int a;
-
 int b;
-
 a=10;
-
 b=a;
+Console.WriteLine("\n Valor de a: "+a);
+Console.WriteLine("\n Valor de b: "+b);
 
-Console.WriteLine("valor de a:"+a);
-Console.WriteLine("valor de b:"+b);
+//invertir un num
+/*Console.WriteLine("\n Ingrese un numero: ");
+string? numStr = Console.ReadLine();
+int num, digito;
+string numInv = "";
 
-/* string? numStr;
-int numFloat;
-numStr = Console.ReadLine();
-int digito;
-string numInv="";
-
-bool anda = int.TryParse(numStr,out numFloat);
-if (anda)
-{   
-    Console.WriteLine("Numero: "+numFloat);
-    numInv=null;
-    while (numFloat != 0)
-    {
-        digito = numFloat%10;
-        numFloat = numFloat/10;
-        numInv = numInv + digito.ToString();
+if(int.TryParse(numStr,out num)){ //Devuelve un bool
+    if(num>=10){
+        Console.WriteLine("\n Numero: "+num);
+        while(num != 0){
+            digito = num%10; //ultimo digito
+            num = num/10;
+            numInv = numInv + digito.ToString();
+        }
+        Console.WriteLine("\n Numero invertido: "+numInv);
+    } else {
+        Console.WriteLine("\n El numero tiene 1 digito, no se puede invertir");
     }
-    //string numlargo = "123";
-    //string numinv = numlargo[2].ToString() + numlargo[1].ToString() + numlargo[0].ToString();
-
-    Console.WriteLine(numInv);
-}*/
-
-
-//Punto 2
-int op = 1;
-int num1, num2, resultado;
-while(op != 0){
-    Console.WriteLine("--- MENU ---");
-    Console.WriteLine("1. Sumar");
-    Console.WriteLine("2. Restar");
-    Console.WriteLine("3. Multiplicar");
-    Console.WriteLine("4. Dividir");
-    Console.WriteLine("Ingresar opcion: ");
-    op = Console.Read();
-    Console.WriteLine("Ingresar numero 1: ");
-
-    num1 = Console.ReadLine();
-
-    Console.WriteLine("Ingresar numero 2: ");
-
-    num2 = Console.ReadLine();
-
-    switch (op)
-    {
-        case 1:
-            resultado = num1+num2;
-            Console.WriteLine("Resultado: "+resultado);
-            break;
-        case 2:
-            resultado = num1-num2;
-            Console.WriteLine("Resultado: "+resultado);
-            break;
-        case 3:
-            resultado = num1*num2;
-            Console.WriteLine("Resultado: "+resultado);
-            break;
-        case 4:
-            resultado = num1/num2;
-            Console.WriteLine("Resultado: "+resultado);
-            break;
-    }
-    Console.WriteLine("Desea realizar otro calculo? 1-SI 0-NO: ");
-    op = Console.Read();
+} else {
+    Console.WriteLine("\n Error! No ingreso un num");
 }
+*/
